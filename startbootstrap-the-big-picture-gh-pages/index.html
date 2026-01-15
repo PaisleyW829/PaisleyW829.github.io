@@ -1,46 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>The Big Picture - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Online resume" />
+    <meta name="author" content="" />
+    <title>Your Name - Online Resume</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+      section { padding-top: 3rem; padding-bottom: 3rem; }
+      body { padding-bottom: 80px; } 
+
+      .tag {
+        display: inline-block;
+        padding: .25rem .6rem;
+        border-radius: 999px;
+        background: rgba(0,0,0,.06);
+        margin: .15rem;
+        font-size: .9rem;
+      }
+
+      /* ===== GLOBAL BACKGROUND IMAGE ===== */
+      body {
+        background-image: url("https://preview.redd.it/amfzanxbvw621.png?auto=webp&s=161ec7991bd06c95a1ab82b705b6615673903773");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      /* overlay for readability */
+      .page-overlay {
+        background-color: rgba(255, 255, 255, 0.55);
+        min-height: 100vh;
+      }
+      /* ===== END BACKGROUND ===== */
+    </style>
+  </head>
+
+  <body>
+    <div class="page-overlay">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <div class="container px-4 px-lg-5">
+          <a class="navbar-brand" href="#About me">Paisley Wu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#About me">Summary</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Work Experience">Work Experience</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Academic Experience">Academic Experience</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- About me -->
+      <section id="About me">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+              <h1 class="mt-4 fw-bold">Paisley Wu</h1>
+              <p class="text-muted mb-2">Undergraduate Student · Data Science / GIS / Web</p>
+
+              <p class="mb-4">
+                <a href="mailto:your.email@example.com">yuewew2@uw.edu</a>
+                <span class="text-muted"> | </span>
+                <a href="https://github.com/PaisleyW829" target="_blank">My GitHub Page</a>
+              </p>
+
+              <h5 class="fw-semibold">About me</h5>
+              <p>
+                Creative and detail-oriented undergraduate at the University of Washington studying Geography: Data Science. Skilled in data analysis, visualization. Passionate about using data and design to create engaging, inclusive, and user-centered technology experiences.
+              </p>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <section>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-6">
-                        <h1 class="mt-5">The Big Picture</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam voluptatem.</p>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work Experience -->
+      <section id="Work Experience">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="fw-bold">Work Experience</h2>
+
+              <div class="mt-4">
+                <h5 class="fw-semibold mb-1">IT Department Intern</h5>
+                <div class="text-muted mb-2">F Medical Care · Summer 2025</div>
+                <ul class="mb-0">
+                  <li>Conducted testing</li>
+                  <li>Documentation for the qualification document system</li>
+                </ul>
+              </div>
+
+              <hr class="my-4" />
+
+              <div>
+                <h5 class="fw-semibold mb-1">IT Solutions Department Intern</h5>
+                <div class="text-muted mb-2">B Corporation · Summer 2025</div>
+                <ul class="mb-0">
+                  <li>Assisted in implementing enterprise-level IT solutions</li>
+                </ul>
+              </div>
+
             </div>
-        </section>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+          </div>
+        </div>
+      </section>
+
+      <!-- Academic Experience -->
+      <section id="Academic Experience">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="fw-bold">Academic Experience</h2>
+
+              <div class="mt-4">
+                <h5 class="fw-semibold mb-1">University of Washington (Seattle Campus)</h5>
+                <div class="text-muted">Geography: Data Science · Expected Graduation: 2026</div>
+                <div class="mt-2">
+                  <span class="text-muted">Relevant coursework:</span>
+                  <span>GEOG 458, GEOG 328</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="Skills">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="fw-bold">Skills</h2>
+
+              <div class="mt-3">
+                <span class="tag">Python</span>
+                <span class="tag">java</span>
+                <span class="tag">R</span>
+                <span class="tag">PolicyMap</span>
+                <span class="tag">QGIS</span>
+                <span class="tag">Mapbox</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Bootstrap</span>
+                <span class="tag">Colab</span>
+                <span class="tag">Exel</span>
+                <span class="tag">Canva</span>
+              </div>
+
+              <div class="mt-4">
+                <ul class="mb-0">
+                  <li>Data cleaning, visualization, regression basics</li>
+                  <li>Spatial data, GeoJSON, interactive web maps</li>
+                  <li>Team collaboration, documentation, presentations</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="Contact">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="fw-bold">Contact</h2>
+              <ul class="mb-0">
+                <li>Email: <a href="yuewew2@uw.edu">yuewew2@uw.edu</a></li>
+                <li>GitHub: <a href="https://github.com/PaisleyW829" target="_blank">https://github.com/PaisleyW829</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
