@@ -6,6 +6,8 @@ yuewew2@uw.edu
 
 Creative and detail-oriented undergraduate at the University of Washington studying Geography: Data Science. Skilled in data analysis, visualization. Passionate about using data and design to create engaging, inclusive, and user-centered technology experiences.
 
+> I am particularly interested in using data-driven approaches to solve real-world social and spatial problems.
+
 
 # Work Experience 
 
@@ -19,6 +21,8 @@ Creative and detail-oriented undergraduate at the University of Washington study
 
 * [University of Washington][] The *University of Washington* in Seattle is a prestigious public research university, recognized globally for innovation, extensive research, and its beautiful campus nestled in a vibrant city, offering numerous programs and attracting significant federal research funding, making it a leading "Public Ivy" with a strong focus on technological advancement and global impact. 
 
+* [Department of Geography][]
+
 **Research Assistant (Data Analyst Intern)** (Sep 2023 – Present)
 
 Worked with faculty and graduate students on research projects involving data cleaning, analysis, and visualization.
@@ -30,3 +34,5 @@ Worked with faculty and graduate students on research projects involving data cl
 
 
 [University of Washington]: https://www.washington.edu/
+
+[Department of Geography]:  https://geography.washington.edu/
