@@ -17,7 +17,7 @@ Creative and detail-oriented undergraduate at the University of Washington study
 # Academic Experience
 ## University of Washington (Seattle, WA)
 
-![Alt text](https://d2jyir0m79gs60.cloudfront.net/college/logos_compressed/University_of_Washington_Seattle_Campus.png )
+![Alt text](https://d2jyir0m79gs60.cloudfront.net/college/logos_compressed/University_of_Washington_Seattle_Campus.png)
 
 * [University of Washington][] The *University of Washington* in Seattle is a prestigious public research university, recognized globally for innovation, extensive research, and its beautiful campus nestled in a vibrant city, offering numerous programs and attracting significant federal research funding, making it a leading "Public Ivy" with a strong focus on technological advancement and global impact. 
 
